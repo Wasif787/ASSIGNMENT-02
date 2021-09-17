@@ -1,0 +1,24 @@
+ANSWER NO: 05
+
+?? AND ?:
+These two operators are used to evaluate some conditional expressions which we can also do by if,else statements.
+
+i)Condition ? Exp1:Exp2:
+If condition is true, then the expression evaluates Expr1 (and returns its value); otherwise, it evaluates and returns the value of Expr2.
+ 
+ii)Condition Exp1??Exp2:
+If Expr1 is null,it evaluates and returns the value of Expr2
+
+EXAMPLES:
+void main() {
+//Condition 1(?):
+  var a = 15;
+  var result1 =
+      a > 20 ? "value greater than 20" : "value lesser than or equal to 20";
+  print(result1);
+//Condition 2(??)
+  var b = null;
+  var c = 13;
+  var result2 = b ?? c;
+  print(result2);
+}

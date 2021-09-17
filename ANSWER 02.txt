@@ -1,0 +1,22 @@
+ANSWER 02
+
+void main() {
+  var a = 2, b = 1;
+  var result = --a - --b + ++b + b--;
+  print(result);
+  var c = --a;
+  print(c);
+  var d = c - --b;
+  print(d);
+  var e = d + ++b;
+  print(e);
+  var f = e + b--;
+  print(f);
+}
+
+EXPLAINATION:
+*)In first step which is "result" we got 3 by the  following steps:
+i)var c = 1 because "a" decrement by 1(2-1=1)
+ii)var d = 1 because "b" decrement by 1(1-1=0) and subtract it in "c"(1-0=1)
+iii)var e = 2 because "d" add in "b"(1+1=2)
+iv)last step var f  = 3 because "e" add in "b"(2+1=3)

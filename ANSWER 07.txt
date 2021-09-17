@@ -1,0 +1,21 @@
+ANSWER NO: 07
+
+TABLE OF 7:
+
+void main() {
+  var Array1 = [
+    "7*1",
+    "7*2",
+    "7*3",
+    "7*4",
+    "7*5",
+    "7*6",
+    "7*7",
+    "7*8",
+    "7*9",
+    "7*10"
+  ];
+  var Array2 = [7, 14, 21, 28, 35, 42, 49, 56, 63, 70];
+  var Table_0f_7 = Map.fromIterables(Array1, Array2);
+  print(Table_0f_7);
+}

@@ -1,0 +1,14 @@
+ANSWER NO:11
+
+CODE:
+
+void main() {
+  var City = "Hyderabad";
+  print(City);
+  print(City.replaceAll("Hyder", "Islam"));
+}
+
+OUTPUT:
+
+Hyderabad
+Islamabad

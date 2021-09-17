@@ -1,0 +1,17 @@
+ANSWER NO: 10
+
+5 LEGAL VARIABLE NAMES:
+
+i)var NAME = "Taha";
+ii)var age = 17;
+iii)var Total_Students = 60;
+iv)var $if = 200;
+v)var double = "Amount"; //double data type used
+
+5 ILLEGAL VARIABLE NAMES:
+
+i)var else = "Amjad";
+ii)var 123= "Number";
+iii)var Ali.121 = "98%";
+iv)var #Email = "abc@gmail.com";
+v)var                = 19;   //Blank Space

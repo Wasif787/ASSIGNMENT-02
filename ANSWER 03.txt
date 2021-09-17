@@ -1,0 +1,9 @@
+ANSWER 03:
+
+void main() {
+  var Ticket_price = 600;
+  var Cost = Ticket_price * 5;
+  print("The cost of 5 movie tickets are ${Cost}");
+}
+RESULT:
+The cost of 5 movie tickets are 3000

@@ -1,0 +1,17 @@
+ANSWER NO: 09
+
+SCORE AND %AGE OF STUDENTS:
+
+void main() {
+  var Student_Name = ["Tahir", "Asim", "Waqar"];
+  var Scores = [340, 440, 467];
+  var data = Map.fromIterables(Student_Name, Scores);
+  print(data);
+  var Total_Score = 500;
+  var A = 340 / Total_Score * 100;
+  print("Percentage of Tahir is $A%");
+  var B = 440 / Total_Score * 100;
+  print("Percentage of Asim is $B%");
+  var C = 467 / Total_Score * 100;
+  print("Percentage of Waqar is $C%");
+}

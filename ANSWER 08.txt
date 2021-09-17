@@ -1,0 +1,20 @@
+ANSWER NO: 08
+
+PASSWORD CODE:
+
+void main() {
+  var JS_Variable = "ABC#123";
+  print("Please enter your Password:");
+  var A = (stdin.readLineSync());
+  if (A == JS_Variable) {
+    print("Please enter the same Password again:");
+    var B = (stdin.readLineSync());
+    if (B == JS_Variable) {
+      print("Your Password is correct!");
+    } else {
+      print("Your Password is incorrect!");
+    }
+  } else {
+    print("'ERROR!'  (Please enter the correct Password)");
+  }
+}

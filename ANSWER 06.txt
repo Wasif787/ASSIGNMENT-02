@@ -1,0 +1,59 @@
+ANSWER 06:
+
+DATA TYPES:
+The data types supported in dart are
+i)Number(int,double,num)
+ii)Strings(String)
+iii)Booleans(bool)
+iv)Lists(List)
+v)Maps(Map)
+
+EXAMPLES:
+i)NUMBER:
+void main() {
+  int Time = 5;
+  print("${Time} second");
+ 
+ double Length = 12.6;
+  print("$Length meter");
+
+  num Age = 18;
+  print("${Age} years old");
+  num Weight = 80.7;
+  print("${Weight} lbs");
+}
+ii)STRINGS:
+void main() {
+  String Name = "John";
+  String Email = "abc123@gmail.com";
+  print("My name is ${Name} and u can contact me at ${Email}");
+}
+iii)BOOLEAN:
+void main() {
+  num a = 10;
+  num b = 15;
+  bool Condition = a > b;
+  print(Condition);
+}
+iv)LISTS:
+void main() {
+  var List1 = [1, 3, 5, 7, 9, 11];
+  print(List1);
+  var e1 = List1.first;
+  var e2 = List1.last;
+  var e3 = List1.elementAt(3);
+  var len = List1.length;
+  print("First Element $e1");
+  print("Last Element $e2");
+  print("Fourth Element $e3");
+  print("There are $len elements in the list");
+}
+v)MAPS:
+void main() {
+  var data = {"Student Name": "George", "Degree Program": "Mechanical Eng."};
+  print(data);
+  print(data.keys);
+  print(data.values);
+  print(data.length);
+}
+
