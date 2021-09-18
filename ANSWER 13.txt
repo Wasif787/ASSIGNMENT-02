@@ -1,0 +1,20 @@
+ANSWER NO: 13
+
+CODE:
+
+import 'dart:io';
+
+void main() {
+  var A = (stdin.readLineSync());
+  if (A != null) {
+    var num1 = num.parse(A);
+    if (num1 < 16 && num1 > 0) {
+      print("Notification: 'First fifteen days of the Month' ");
+    } else if (num1 > 15 && num1 < 32) {
+      print("Notification: 'Last days of the Month' ");
+    } else {
+      print("'ERROR'");
+      print("Reason: 'Please put the correct date!'");
+    }
+  }
+}
